@@ -1,0 +1,321 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+}
+.main{
+    background-image: url("assets/images/bg1.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
+    height: 60vh;
+    position: relative;
+    top: 0;
+}
+.main .box{
+    height: 60vh;
+    width: 100%;
+    background-color: black;
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+}
+.navbtn{
+    position: relative;
+    z-index: 10;
+    
+}
+nav{
+    max-width: 70vw;
+    margin: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 90px;
+}    
+nav img{
+    width: 140px;
+    position: relative;
+    z-index: 10;
+    
+    
+}
+.hero{
+    height: calc(100% - 90px);
+    color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: relative;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif, 'Martil Sans';
+    gap: 22px;
+    text-align: center;
+}
+.hero> :nth-child(1){
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+}
+.hero> :nth-child(2){
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+.hero> :nth-child(3){
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+.separation{
+    height: 4px;
+    background-color: rgb(66, 66, 66);
+    position: relative;
+    z-index: 20;
+}
+.btn{
+    padding: 3px 8px;
+    font-weight: 500;
+    color: white;
+    border-radius: 4px;
+    background-color: rgba(116, 111, 111, 0.219);
+    font-size: 15px;
+    border: 1px solid white;
+    cursor: pointer;
+    
+}
+.navredbtn{
+    padding: 4px 13px;
+    background-color: red;
+    color: white;
+    border-radius: 6px;
+    font-size: 14px
+    /* width: 100px; */
+    ;
+}
+.heroredbtn{
+    padding: 6px 24px;
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: red;
+    color: white;
+}
+.hero-buttons{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 16px;
+    padding: 0px 17px;
+}
+.main input{
+    padding: 7px 15px 8px 3px;
+    border-radius: 5px;
+    font-size: 12px;
+    width: 220px;
+    color: white;
+    background-color: rgb(23, 23, 23,0.2);
+    border: 1px solid rgba(172, 164, 164, 0.5);
+}
+.first{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif, 'Martil Sans';
+    
+}
+
+.secImg{
+    position: relative;
+}
+.secImg img{
+    width: 400px;
+    position: relative;
+    z-index: 10;
+}
+.secImg video{
+    position: absolute;
+    top: 51px;
+    right: 0;
+    width: 347px;
+}
+.first > div{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+.first > div :nth-child(1){
+    font-size: 48px;
+    font-weight: bold;
+    
+}
+.first > div :nth-child(2){
+    font-size: 24px;
+    /* font-weight: bold; */
+
+}
+.faq{
+    background-color: black;
+    color: white;
+    padding: 34px;
+}
+.faq h2{
+    text-align: center;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif, 'Martil Sans';
+    padding: 23px;
+    font-size: 48px;
+}
+.faqbox{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-color: #2d2d2d;
+    padding: 15px;
+    width: 60vw;
+    margin: 25px auto;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    border-radius: 7px;
+    border: 1px solid grey;
+    cursor: pointer;
+    font-size: 24px;
+}
+.faqbox:hover{
+    -webkit-transition: all;
+    -o-transition: all;
+    transition: all;
+    -webkit-transition-duration: 1s;
+         -o-transition-duration: 1s;
+            transition-duration: 1s;
+    background-color: blue;
+    color: white;
+}
+.faqbox svg:hover{
+    -webkit-filter: invert(1);
+            filter: invert(1);
+}
+footer{
+    color: white;
+    max-width: 60vw;
+    margin: auto;
+    padding: 34px;
+}
+footer .questions{
+    padding: 34px 0px;
+}
+.footer a{
+    color: white;
+    font-size: 14px;
+}
+.footer{
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+    max-width: 60vw;
+    margin: auto;
+}
+.footer-item{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 15px;
+}
+@media screen and (max-width: 1365px) {
+    nav{
+        max-width: 90vw;
+    }
+    .first{
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    }
+    .secImg img{
+        width: 325px;
+    }
+    .secImg video{
+        width: 347px;
+    }
+    .hero> :nth-child(1){
+        font-size: 32px;
+    }
+    .hero> :nth-child(2){
+        font-size: 18px;
+    }
+    .hero> :nth-child(3){
+        font-size: 18px;
+    }
+    .hero-buttons{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    .first > div :nth-child(1){
+        text-align: center;
+        font-size: 32px;
+    }
+    .first > div :nth-child(2){
+        text-align: center;
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 1365px) {
+    .footer{
+        display: -ms-grid;
+        display: grid;
+        -ms-grid-columns: 1fr 25px 1fr;
+        grid-template-columns: 1fr 1fr;
+        gap: 25px;
+    }
+    .faq h2{
+        font-size: 32px;
+    }
+    footer{
+        max-width: 90vw;
+    }
+}
